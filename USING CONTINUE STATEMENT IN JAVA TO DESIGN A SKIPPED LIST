@@ -1,0 +1,23 @@
+//INPUT
+import java.util.*;
+public class condition_for{
+  public static void main(String[] args){
+    for(int i=0; i<=10;i++){
+      if(i==5){
+        continue;
+      }
+      System.out.println("The list is:"+i);
+    }
+  }
+}
+//OUTPUT
+The list is:0
+The list is:1
+The list is:2
+The list is:3
+The list is:4
+The list is:6
+The list is:7
+The list is:8
+The list is:9
+The list is:10
